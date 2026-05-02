@@ -1,22 +1,23 @@
-# 🎮 Crew Streamers App
+# Crew Streamers App
 
-Aplicación web desarrollada en **PHP** para la gestión de un crew de streamers.  
-El sistema permite administrar usuarios, generar equipos, realizar sorteos, gestionar sponsors y mantener estadísticas en tiempo real utilizando **sesiones, cookies y almacenamiento en archivos**.
+Aplicación web desarrollada en PHP para la gestión de un crew de streamers.  
+El sistema permite administrar usuarios, generar equipos, realizar sorteos, gestionar sponsors y mantener estadísticas mediante el uso de sesiones, cookies y almacenamiento en archivos.
 
 ---
 
-## 🚀 Objetivo del Proyecto
+## Objetivo del proyecto
 
-Simular una plataforma completa de gestión de streamers implementando:
+Simular una plataforma completa de gestión de streamers aplicando conceptos fundamentales de desarrollo backend sin frameworks, incluyendo:
 
-- Backend en PHP sin frameworks
-- Persistencia mediante archivos (JSON, TXT, CSV)
-- Uso de sesiones y cookies
+- Desarrollo backend en PHP puro
+- Persistencia de datos mediante archivos (JSON, TXT, CSV)
+- Gestión de sesiones y cookies
 - Validación segura de formularios
+- Manipulación de datos y generación dinámica de contenido
 
 ---
 
-## 🧱 Estructura del Proyecto
+## Estructura del proyecto
 /crew-streamers/
 ├── index.php
 ├── desafio1.php
@@ -44,106 +45,105 @@ Simular una plataforma completa de gestión de streamers implementando:
 
 ---
 
-## 🏠 Funcionalidades principales
+## Funcionalidades principales
 
-### 🖥️ Home (Dashboard)
-- Sistema de login con username gamer (sesión)
-- Contador de visitas y última conexión (cookies + archivos)
-- Visualización dinámica de avatares de streamers
-- Sistema de racha de días
+### Dashboard
+- Sistema de autenticación basado en username mediante sesiones
+- Control de visitas mediante cookies y almacenamiento en archivos
+- Visualización dinámica de streamers
+- Sistema de racha de actividad de usuarios
 
 ---
 
-## 🎯 Desafío 1 - Sorteo de Viewers
-- Validación de formulario en PHP
+## Desafío 1: Sorteo de viewers
+- Validación de formularios en PHP
 - Generación aleatoria de ganadores
-- Registro de sorteos en archivo log
+- Registro de resultados en logs del sistema
 
 ---
 
-## 🔥 Desafío 2 - Featured Streamers
+## Desafío 2: Streamers destacados
 - Gestión dinámica de streamers destacados
-- Persistencia mediante JSON
-- Reset del sistema de rotación
+- Persistencia de datos en formato JSON
+- Sistema de reinicio de rotación de destacados
 
 ---
 
-## ⚡ Desafío 3 - Equipos de Torneo
-- Generación de roster con datos dinámicos
+## Desafío 3: Equipos de torneo
+- Generación dinámica de roster de streamers
 - División automática en equipos
-- Cálculo de estadísticas (followers)
-- MVP y Rookie del torneo
-- Persistencia en JSON
+- Cálculo de estadísticas de rendimiento
+- Identificación de MVP y rookie del torneo
+- Persistencia de resultados en JSON
 
 ---
 
-## 🏆 Desafío 4 - Rankings y Búsqueda
-- Ordenación por popularidad y alfabética
-- Buscador con validación segura
-- Registro de búsquedas en logs
+## Desafío 4: Rankings y búsqueda
+- Ordenación de streamers por popularidad y criterios alfabéticos
+- Sistema de búsqueda con validación segura
+- Registro de consultas en logs del sistema
 
 ---
 
-## 💎 Desafío 5 - Sponsors
-- Gestión de sponsors (string ↔ array)
-- Asignación aleatoria a streamers
-- Exportación de datos a CSV
-- Añadir sponsors dinámicamente
+## Desafío 5: Gestión de sponsors
+- Gestión de sponsors mediante estructuras dinámicas
+- Asignación aleatoria de sponsors a streamers
+- Exportación de datos en formato CSV
+- Incorporación dinámica de nuevos sponsors
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
-- PHP (Backend)
+- PHP (backend)
 - HTML5
-- CSS3 (Diseño gaming)
-- JavaScript (interacciones básicas)
-- JSON / TXT / CSV (persistencia de datos)
+- CSS3
+- JavaScript
+- JSON, TXT y CSV para persistencia de datos
 
 ---
 
-## 🔐 Seguridad
+## Seguridad
 
-- Validación de formularios en backend
-- Sanitización de datos (`htmlspecialchars`, `filter_var`)
-- Uso de sesiones seguras
-- Control de acceso mediante cookies
-- Validación de inputs con expresiones regulares
-
----
-
-## 📂 Gestión de datos
-
-- Lectura y escritura de archivos (`file_get_contents`, `file_put_contents`)
-- Uso de JSON para estructuras complejas
-- Logs de acciones del sistema
-- Persistencia entre sesiones
+- Validación de datos en servidor
+- Sanitización de entradas (`htmlspecialchars`, `filter_var`)
+- Uso de sesiones para control de acceso
+- Gestión de cookies para seguimiento de actividad
+- Validación de datos mediante expresiones regulares
 
 ---
 
-## 🎨 Diseño
+## Gestión de datos
 
-- Tema gaming oscuro
-- Uso de colores neón
-- Interfaz interactiva
-- Componentes visuales dinámicos
-
----
-
-## 📌 Estado del proyecto
-
-✔ Finalizado (versión académica)  
-🔄 Mejoras futuras posibles (refactorización y optimización)
+- Lectura y escritura de archivos mediante funciones nativas de PHP
+- Uso de JSON para estructuras de datos complejas
+- Sistema de logs para auditoría de acciones
+- Persistencia de información entre sesiones
 
 ---
 
-## 👨‍💻 Autor
+## Diseño
+
+- Interfaz con temática gaming
+- Estilo visual oscuro con elementos de contraste
+- Componentes dinámicos orientados a experiencia de usuario
+
+---
+
+## Estado del proyecto
+
+Proyecto finalizado en su versión académica.  
+Se contemplan futuras mejoras orientadas a optimización, refactorización y migración a arquitectura MVC o base de datos relacional.
+
+---
+
+## Autor
 
 Jose Miguel Risco Muñoz  
 Estudiante de Desarrollo de Aplicaciones Web (DAW)
 
 ---
 
-## 💡 Nota
+## Nota
 
-Proyecto académico enfocado en la práctica de conceptos de backend en PHP, gestión de datos y seguridad en aplicaciones web.
+Proyecto académico enfocado en la aplicación práctica de conceptos de backend en PHP, manipulación de datos, persistencia mediante archivos y seguridad en aplicaciones web.
